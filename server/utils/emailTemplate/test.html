@@ -1,0 +1,117 @@
+function commentNotificationEmail(userName, sender, comment) { return `<!DOCTYPE html>
+<table
+	class="full-width-container"
+	style="
+		height: 100%;
+		font-family: Calibri;
+		padding-bottom: 30px;
+		padding-top: 30px;
+		padding-left: 0px;
+		padding-right: 0px;
+	"
+	height="100%"
+	cellspacing="0"
+	cellpadding="0"
+	bgcolor="#eeeeee"
+	border="0"
+>
+	<tbody>
+		<tr>
+			<td valign="top" align="center">
+				<table
+					class="container"
+					style="width: 720px"
+					cellspacing="0"
+					cellpadding="0"
+					width="720"
+					bgcolor="#ffffff"
+					border="0"
+				>
+					<tbody>
+						<tr>
+							<td valign="top" cellPadding="50" cellPadding="50" border="10">
+								<!-- / Header -->
+								<table
+									class="container header"
+									style="background: #1a2155; width: 100%"
+									cellspacing="20"
+									cellpadding="20"
+									border="0"
+								>
+									<tbody>
+										<tr>
+											<td align="left">
+												<img
+													src="https://www.tradedepot.co/images/logo-alt-png.png"
+													width="200"
+												/>
+											</td>
+											<td align="right">
+												<b
+													style="
+														font-size: 18px;
+														text-decoration: none;
+														vertical-align: bottom;
+														color: #fff;
+													"
+													>Comment Notification</b
+												>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								<table
+									class="container hero-subheader"
+									style="width: 100%; color: #1a2155"
+									cellspacing="0"
+									cellpadding="0"
+									border="0"
+								>
+									<tbody>
+										<tr>
+											<td
+												class="hero-subheader__title"
+												style="
+													font-family: calibri;
+													font-size: 11pt;
+													color: black;
+													font-weight: 600;
+													padding-bottom: 15px;
+													padding-top: 30px;
+													padding-left: 30px;
+													padding-right: 0px;
+												"
+												align="left"
+											>
+												Dear ${userName},
+											</td>
+										</tr>
+										<tr style="padding: 0px">
+											<td
+												class="hero-subheader__content"
+												style="
+													font-family: calibri;
+													font-size: 11pt;
+													color: black;
+													padding-left: 30px;
+												"
+												align="left"
+											>
+												Please be informed that your product has comment from
+												${sender}.<br /><br />
+												${comment}<br /><br />
+
+												Regards, <br /><br />
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+`; } module.exports = commentNotificationEmail;
