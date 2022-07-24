@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "product-management-app-ed472",
+  "private_key_id": "1e464e9f459e1733d7cf82137805c2674013c438",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCbLfm0ybFoRhJ2\neT8NUIOaxOhn6sNdjACxTmSKHwfui6IHMQdcD/kOYX6HlGTMEass327ZcSf88jYD\ng7HDOAAWh/qVPXNEchycJvJCcqYjLCfMRsjr7cfX6yNdRYXFxJssapm4zkj8/Ipj\nCskkXCpToJhwLURGMxFSdakq5QPn8jBqwABWIxt3XsO+LJFCQHB9rR3aEjN4eJOw\nDlXP2c/igHUEXse3ABstx3gRMPQmBO7S2+vrk/w1R/k86lx4CfcZIRpSEPqMOQe4\nod2gujMuDcoHfnzAsqkdS0r847/8JkhY6VGf+0+yR30XCcZzuJS9JC5ndmZABs+0\nTa9aVxxFAgMBAAECggEATSAuHgUqp/0/uuNrC5aLOlaIffGH9Qwa4gTo4l8m5ZA/\n0Rw0oLSNn/Cj3wXJjUVw0sYgBXGAou7NGrUPGkxQeuJNkHQwwIGIp7GRsaXi3dNZ\n2mUKAny1WSLUekyN/qvHRe2bhmb8jsSDkVMwgmJOZS8J5KMS7mL+RoIVOK0HYnVN\nwPmi93yAGjHnQiNMi803icN9x8PIY+4uQIRT4bzpA+dNJyLzpMD5IE+ci3WN9rzM\nkb//q+OaDH6oAriAg2VOXfkZ22Y2xmz2Yv9d8EY+YJ+3WHZUYzS3nOGsSdgEjegk\n6/qa/R//+U2NTUNhNSqxLBcDZPbZw8iGrX11IvFjdwKBgQDUs6fAHBmwHy/NQVAB\nW9l8fjhxGCYOI8snP/9Uw4QtEmrjajIq/fGw26ytRxEQOJWTRrIT7abFUCttKJ9F\nWOo8k+fIPpQH6Xxxas4RCx9eshz8ERgMzTHzCqhxpNJTc0MqdsBf4Lb+rceImSDz\n/n83KGTkprd4FGaT0ppd3IumbwKBgQC6xLdGOfRcAFvQFR8AAWyzGF2phXevJL0P\n9WqHCdpC3uuYYacTNJvjo9Uks07Xy1G5rNSZ9GYdrWcM3DtwwDkk0AKb2itChXhp\njY6hENq1v0JvtBPKBP84qOPEJ6vkqoUWnM73YmqGLRXkSYd0zhdL3iD/BKUlVJs+\nVmtRRKciiwKBgQC8gaQwDDdv8ZPJ0xJ2wdJUFQEsqfxAF9TaKku98bFYyLPWbK2d\nkIX8+hNlVlB3Ec7uQX9dTge5Yz25doEBUrX1jhejTmKfSHyzf7a1QChDIpOxiezI\nm6qi/VUfsrV8o/Bo1+nSjzNfLuBh3WRpGanhVnlkc6SyVVI7vDB28xkJHQKBgBoh\nRYb0usRYZIADRHgKuvt/kDMUcj81w6HE8yd7cGbkq0+Bcg+Uz66UkFB3KbO1RXTV\nwlTbxaGnTgCVm1dV/WiyFXtalazT4Zna7TaJlh/RZ2kbZ51e/5ocvukFp93xIXed\nbrNbuI2XJzXuN55W6xl5NWKYcsZ7RND+5DrVgRCrAoGBAJBp0JbQVqJe9Q0WSi8U\nEa7trZktpYaKm53JbmqUV50Q3dDLZxHEV/ADrKVdZphRWloRryKdJp1V3+JBYPcj\n5sVi9vuD9ndPMnCSOq1+7xM1Ag+NjONeTbeeOKKOUVKTgBDr5K9JIMz8MShO46vZ\nqo18fPFhGa3z/G0C8GVbIu4M\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-7gp6n@product-management-app-ed472.iam.gserviceaccount.com",
+  "client_id": "102836466307662663806",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-7gp6n%40product-management-app-ed472.iam.gserviceaccount.com"
+}
