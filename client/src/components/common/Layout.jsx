@@ -20,7 +20,7 @@ import Button from "@mui/material/Button";
 import HomeIcon from "@mui/icons-material/Home";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
-import DrawerHeader from "../../components/common/DrawerHeader";
+import DrawerHeader from "./DrawerHeader";
 import AuthContext from "../../contexts/AuthContext";
 import logo from "../../assets/logos/trade-depot-logo.png";
 

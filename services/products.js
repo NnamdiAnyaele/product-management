@@ -8,7 +8,16 @@ const sendSms = require("../utils/sendSms");
 const commentNotification = require("../utils/emailTemplate/commentNotification");
 
 exports.create = async function (data) {
-	const { name, price, description, imageUrl, author, location, radius } = data;
+	const {
+		name,
+		price,
+		description,
+		imageUrl,
+		author,
+		location,
+		radius,
+		address,
+	} = data;
 	const product = await db.collection("products").add({
 		name,
 		price,
@@ -18,6 +27,7 @@ exports.create = async function (data) {
 		location,
 		radius,
 		comments: [],
+		address,
 	});
 	return product;
 };
@@ -44,7 +54,10 @@ exports.getProductsByLocationRadius = async function (userId) {
 	}
 	const userLocation = user.location.coordinates;
 	const products = await db.collection("products").get();
-	const productData = products.docs.map((doc) => doc.data());
+	const productData = products.docs.map((doc) => ({
+		...doc.data(),
+		id: doc.id,
+	}));
 	const result = [];
 	productData.forEach((product) => {
 		const distance = calcCrow(

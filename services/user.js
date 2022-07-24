@@ -27,7 +27,6 @@ exports.registerUser = async function (data) {
 		location,
 		phoneNumber,
 	});
-	e;
 	const result = await newUser.save();
 
 	const token = generateToken(newUser._id);

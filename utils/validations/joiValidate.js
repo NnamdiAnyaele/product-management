@@ -56,6 +56,7 @@ exports.validateProduct = function (obj) {
 		name: Joi.string().min(3).max(30).required(),
 		price: Joi.number().required(),
 		description: Joi.string().min(3).max(100).required(),
+		address: Joi.string().min(3).max(100).required(),
 		location: Joi.array().required(),
 		radius: Joi.number().required(),
 	});

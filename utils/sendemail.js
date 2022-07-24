@@ -15,7 +15,7 @@ async function sendEmail(userEmail, subject, mailMessage) {
 
 		const mailOptions = {
 			from: "no-reply@tradedpottask.com",
-			to: "anyaelennamdi@gmail.com",
+			to: userEmail,
 			subject,
 			html: mailMessage,
 		};
